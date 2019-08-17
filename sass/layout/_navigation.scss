@@ -1,0 +1,129 @@
+// main navi
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 2rem;
+    transform: translateX(-15%);
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 2rem;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 110%;
+    border-bottom: .1rem solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 0.1rem solid $color-blue-bold;
+}
+
+// sticky navi
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(../../img/GreenYellow.jpg);
+    -webkit-box-shadow: 0 .1rem .1rem #c4b8b8;
+    box-shadow: 0 .1rem .1rem #c4b8b8;
+    z-index: 1;
+}
+
+.main-nav {
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: .75rem 0;
+    color: #555;
+}
+
+// mobile navi
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 1.5rem;
+}
+
+.mobile-nav-icon i {
+    font-size: 3rem;
+    color: #333030
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+  .main-nav {
+    display: flex !important;
+    margin-top: 3rem;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 765px) {
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 1.75rem;
+        margin-left: 1.25rem;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: .5rem 0;
+        font-size: 100%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .sticky .main-nav {
+        margin-top: .5rem;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: .5rem 0;
+        color: #555;
+    }
+
+    .sticky .mobile-nav-icon {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+  }

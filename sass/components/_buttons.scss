@@ -1,0 +1,73 @@
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10rem;
+    color: $color-white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: $color-blue-bold;
+    border: .05rem solid $color-blue-bold;
+    color: $color-white;
+    margin-right: .75rem;
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: .07rem solid $color-blue-bold-2;
+    color: $color-blue-bold;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+/*    background-color: #217dbb;*/
+
+}
+
+.btn-full:hover {
+    border: .05rem solid $color-blue-sky;
+    transform: translateY(-3px);
+    box-shadow: $box-shadow-btn;
+}
+
+
+.btn-full:active {
+    border: .05rem solid $color-blue-sky;
+    transform: translateY(-.05rem);
+    box-shadow: $box-shadow-btn;
+}
+
+.btn-ghost:hover {
+    color: $color-blue-bold;
+    border: .07rem solid $color-blue-bold;
+    transform: translateY(-.15rem);
+    box-shadow: 0 .5rem 1rem rgba(231, 190, 237, 0.76);
+}
+
+
+.btn-ghost:active {
+    border: .07rem solid $color-blue-bold;
+    color: $color-blue-bold;
+    transform: translateY(-.05rem);
+    box-shadow: $box-shadow-btn;
+}
+
+input[type=submit]:hover {
+    transform: translateY(-.15rem);
+    box-shadow: $box-shadow-btn;
+}
+
+input[type=submit]:active {
+    transform: translateY(-.05rem);
+    box-shadow: $box-shadow-btn;
+}

@@ -1,0 +1,51 @@
+.header-primary {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
+
+.header-primary-main {
+    color: $color-primary;
+    font-size: 200%;
+    word-spacing: .15rem;
+    font-size: 60px;
+    display: block;
+    font-weight: 300;
+}
+
+.header-primary-sub {
+    font-size: 220;
+    font-weight: 300;
+    display: block;
+    word-spacing: .15rem;
+    color: $color-primary;
+}
+
+.heading-secondary {
+    font-size: 220;
+    font-weight: 300;
+    display: block;
+    word-spacing: .15rem;
+    color: $color-primary;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
+
+    @include respond(phone) {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
+body {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $color-primary;
+}
