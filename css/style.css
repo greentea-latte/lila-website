@@ -342,7 +342,7 @@ input[type=submit]:active {
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url(../../img/GreenYellow.jpg);
+  background-image: url(../img/GreenYellow.jpg);
   -webkit-box-shadow: 0 .1rem .1rem #c4b8b8;
   box-shadow: 0 .1rem .1rem #c4b8b8;
   z-index: 1; }
@@ -370,7 +370,8 @@ input[type=submit]:active {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .main-nav {
-    display: flex !important; } }
+    display: flex !important;
+    margin-top: 3rem; } }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 765px) {
