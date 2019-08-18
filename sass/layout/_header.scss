@@ -9,6 +9,7 @@
   position: absolute;
   top: 40%;
   left: 15%;
-  animation: moveInLeft 2s ease-in;
+  -webkit-animation: moveInLeft 2s ease-in;
+          animation: moveInLeft 2s ease-in;
 }
 

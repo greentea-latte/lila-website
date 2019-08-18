@@ -1,13 +1,17 @@
 .card {
 
-    // FUNCTIONALITY
-    perspective: 150rem;
+    /* FUNCTIONALITY*/
+    -webkit-perspective: 150rem;
+            perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
-    height: 52rem;
+    height: 58rem;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
 
     &__side {
-        height: 52rem;
+        height: 58rem;
         transition: all .8s ease;
         position: absolute;
         top: 0;
@@ -24,7 +28,8 @@
         }
 
         &--back {
-            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+                    transform: rotateY(180deg);
 
             &-1 {
                 background-color: #E5CBE2;
@@ -41,16 +46,16 @@
     }
 
 
-    // &:hover &__side--front {
-    //     transform: rotateY(-180deg);
-    // }
+    /* &:hover &__side--front {*/
+    /*     transform: rotateY(-180deg);*/
+    /* }*/
 
-    // &:hover &__side--back {
-    //     transform: rotateY(0);
-    // }
+    /* &:hover &__side--back {*/
+    /*     transform: rotateY(0);*/
+    /* }*/
 
 
-    // FRONT SIDE STYLING
+    /* FRONT SIDE STYLING*/
     &__picture {
         background-size: cover;
         height: 23rem;
@@ -110,13 +115,18 @@
         }
     }
 
-    // FRONT SIDE STYLING
+      &:hover {
+        -webkit-transform: translateY(-1.5rem) scale(1.03);
+                transform: translateY(-1.5rem) scale(1.03);
+    }
+
+    /* FRONT SIDE STYLING*/
 
 
 
 
 
-    //@include respond(tab-port) {
+    /*@include respond(tab-port) {*/
     @media only screen and (max-width: 56.25em),
             only screen and (hover: none) {
 
@@ -131,13 +141,16 @@
             box-shadow: none;
 
             &--back {
-                transform: rotateY(0);
-                clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+                -webkit-transform: rotateY(0);
+                        transform: rotateY(0);
+                -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+                        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
             }
         }
 
         &:hover &__side--front {
-            transform: rotateY(0);
+            -webkit-transform: rotateY(0);
+                    transform: rotateY(0);
         }
 
 
@@ -145,7 +158,7 @@
             padding: 1rem 3rem;
         }
 
-        // FRONT SIDE STYLING
+        /* FRONT SIDE STYLING*/
     }
 
 }

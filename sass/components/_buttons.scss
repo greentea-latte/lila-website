@@ -36,21 +36,24 @@ input[type=submit]:active {
 
 .btn-full:hover {
     border: .05rem solid $color-blue-sky;
-    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
     box-shadow: $box-shadow-btn;
 }
 
 
 .btn-full:active {
     border: .05rem solid $color-blue-sky;
-    transform: translateY(-.05rem);
+    -webkit-transform: translateY(-.05rem);
+            transform: translateY(-.05rem);
     box-shadow: $box-shadow-btn;
 }
 
 .btn-ghost:hover {
     color: $color-blue-bold;
     border: .07rem solid $color-blue-bold;
-    transform: translateY(-.15rem);
+    -webkit-transform: translateY(-.15rem);
+            transform: translateY(-.15rem);
     box-shadow: 0 .5rem 1rem rgba(231, 190, 237, 0.76);
 }
 
@@ -58,16 +61,19 @@ input[type=submit]:active {
 .btn-ghost:active {
     border: .07rem solid $color-blue-bold;
     color: $color-blue-bold;
-    transform: translateY(-.05rem);
+    -webkit-transform: translateY(-.05rem);
+            transform: translateY(-.05rem);
     box-shadow: $box-shadow-btn;
 }
 
 input[type=submit]:hover {
-    transform: translateY(-.15rem);
+    -webkit-transform: translateY(-.15rem);
+            transform: translateY(-.15rem);
     box-shadow: $box-shadow-btn;
 }
 
 input[type=submit]:active {
-    transform: translateY(-.05rem);
+    -webkit-transform: translateY(-.05rem);
+            transform: translateY(-.05rem);
     box-shadow: $box-shadow-btn;
 }

@@ -1,10 +1,11 @@
-// main navi
+/* main navi*/
 
 .main-nav {
     float: right;
     list-style: none;
     margin-top: 2rem;
-    transform: translateX(-15%);
+    -webkit-transform: translateX(-15%);
+            transform: translateX(-15%);
 }
 
 .main-nav li {
@@ -29,7 +30,7 @@
     border-bottom: 0.1rem solid $color-blue-bold;
 }
 
-// sticky navi
+/* sticky navi*/
 
 .sticky {
     position: fixed;
@@ -37,7 +38,6 @@
     left: 0;
     width: 100%;
     background-image: url(../img/GreenYellow.jpg);
-    -webkit-box-shadow: 0 .1rem .1rem #c4b8b8;
     box-shadow: 0 .1rem .1rem #c4b8b8;
     z-index: 1;
 }
@@ -54,7 +54,7 @@
     color: #555;
 }
 
-// mobile navi
+/* mobile navi*/
 
 .mobile-nav-icon {
     float: right;
