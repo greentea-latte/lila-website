@@ -1,0 +1,28 @@
+.footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline-block;
+  font-size: 40px;
+  color: #3498db;
+  padding: 0.5rem;
+}
+
+.footer p {
+  text-align: center;
+  color: $color-primary;
+  font-size: 17px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 220;
+  font-weight: 300;
+}
+
+.footer {
+  padding: 10px;
+  background-image: url(../img/GreenYellow.jpg);
+  margin-top: 3rem;
+  margin-bottom: 0;
+  width:100vw;
+}
