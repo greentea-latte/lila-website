@@ -224,10 +224,6 @@ input[type=submit]:active {
         background-color: #E5CBE2; }
       .card__side--back-3 {
         background-color: #E5CBE2; }
-  .card:hover .card__side--front {
-    transform: rotateY(-180deg); }
-  .card:hover .card__side--back {
-    transform: rotateY(0); }
   .card__picture {
     background-size: cover;
     height: 23rem;
@@ -266,6 +262,9 @@ input[type=submit]:active {
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid grey; }
+  .card:hover {
+    -webkit-transform: translateY(-1.5rem) scale(1.03);
+    transform: translateY(-1.5rem) scale(1.03); }
   @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     .card {
       height: auto;

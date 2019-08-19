@@ -46,13 +46,13 @@
     }
 
 
-    &:hover &__side--front {
-         transform: rotateY(-180deg);
-     }
+    // &:hover &__side--front {
+    //      transform: rotateY(-180deg);
+    //  }
 
-    &:hover &__side--back {
-         transform: rotateY(0);
-     }
+    // &:hover &__side--back {
+    //      transform: rotateY(0);
+    //  }
 
 
     /* FRONT SIDE STYLING*/
@@ -115,10 +115,10 @@
         }
     }
 
-    //   &:hover {
-    //     -webkit-transform: translateY(-1.5rem) scale(1.03);
-    //             transform: translateY(-1.5rem) scale(1.03);
-    // }
+      &:hover {
+        -webkit-transform: translateY(-1.5rem) scale(1.03);
+                transform: translateY(-1.5rem) scale(1.03);
+    }
 
     /* FRONT SIDE STYLING*/
 
