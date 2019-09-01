@@ -235,7 +235,7 @@ input[type=submit]:active {
     .card__picture--1 {
       background-image: url(../../img/cocktails-project.jpeg); }
     .card__picture--2 {
-      background-color: #CFE4FB; }
+      background-image: url(../../img/blissful-retreats.jpg);}
     .card__picture--3 {
       background-image: url(../../img/chef-app.jpg); }
   .card__heading {
