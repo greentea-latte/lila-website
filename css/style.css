@@ -242,7 +242,7 @@ input[type=submit]:active {
     .card__picture--3 {
       background-image: url(../../img/chef-app.jpg); }
     .card__picture--4 {
-      background-color: #e5cbe2; }
+      background-image: url(../../img/ecopal.jpg); }
   .card__heading {
     font-weight: 300;
     text-transform: uppercase;
