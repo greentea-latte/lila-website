@@ -236,22 +236,32 @@ input[type=submit]:active {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: url(../../img/cocktails-project.jpeg); }
+      background-image: url(../../img/houselink.jpg); }
     .card__picture--2 {
       background-image: url(../../img/blissful-retreats.jpg); }
     .card__picture--3 {
       background-image: url(../../img/chef-app.jpg); }
     .card__picture--4 {
       background-image: url(../../img/ecopal.jpg); }
+    .card__picture--5 {
+      background-image: url(../../img/cocktails-project.jpeg); }
+    .card__picture--6 {
+      background-color: #ddc9e2; }
+    .card__picture--7 {
+      background-color: #ddc9e2; }
+    .card__picture--8 {
+      background-color: #ddc9e2; }
   .card__heading {
     font-weight: 300;
+    font-size: 2rem;
     text-transform: uppercase;
     text-align: right;
     color: #fff;
     position: absolute;
     top: 12rem;
     right: 2rem;
-    width: 75%; }
+    width: 75%;
+    font-size: 2rem; }
   .card__heading-span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
@@ -516,10 +526,13 @@ input[type=submit]:active {
 .section-projects {
   padding: 20rem 0 8rem 0;
   margin-top: -10rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 0.2rem; }
   @media only screen and (max-width: 56.25em) {
     .section-projects {
       padding: 20rem 0 10rem 0; } }
+
+.section-project-2 {
+  margin-bottom: 4rem; }
 
 .section-skills {
   background-color: #fff;

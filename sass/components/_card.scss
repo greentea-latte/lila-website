@@ -66,7 +66,7 @@
         border-top-right-radius: 3px;
 
         &--1 {
-            background-image: url(../../img/cocktails-project.jpeg);
+            background-image: url(../../img/houselink.jpg);
         }
 
         &--2 {
@@ -80,10 +80,24 @@
         &--4 {
             background-image: url(../../img/ecopal.jpg);
         }
+
+        &--5 {
+            background-image: url(../../img/cocktails-project.jpeg);
+        }
+        &--6 {
+            background-color: rgb(221, 201, 226);
+        }
+        &--7 {
+            background-color: rgb(221, 201, 226);
+        }
+        &--8 {
+            background-color: rgb(221, 201, 226);
+        }
     }
 
     &__heading {
         font-weight: 300;
+        font-size: 2rem;
         text-transform: uppercase;
         text-align: right;
         color: $color-white;
@@ -91,7 +105,7 @@
         top: 12rem;
         right: 2rem;
         width: 75%;
-
+        font-size: 2rem;
     }
 
     &__heading-span {
